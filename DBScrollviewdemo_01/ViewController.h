@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+{
+    UITextField *textFieldNumber;
+    UIButton   *btnStart;
+    UIScrollView *scrollView;
+    NSMutableArray *btnArray;
+}
 
+- (IBAction)btnStartAction:(id)sender;
+- (IBAction)btnAlert:(id)sender;
 
 @end
 

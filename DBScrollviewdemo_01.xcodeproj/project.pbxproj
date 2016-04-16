@@ -418,6 +418,7 @@
 				C34485051CC240D300A09AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C34485061CC240D300A09AE2 /* Build configuration list for PBXNativeTarget "DBScrollviewdemo_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				C34485081CC240D300A09AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
