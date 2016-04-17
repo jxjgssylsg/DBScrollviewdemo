@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		C34484E61CC240D300A09AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484E51CC240D300A09AE2 /* main.m */; };
 		C34484E91CC240D300A09AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484E81CC240D300A09AE2 /* AppDelegate.m */; };
-		C34484EC1CC240D300A09AE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484EB1CC240D300A09AE2 /* ViewController.m */; };
+		C34484EC1CC240D300A09AE2 /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484EB1CC240D300A09AE2 /* DBViewController.m */; };
 		C34484EF1CC240D300A09AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34484ED1CC240D300A09AE2 /* Main.storyboard */; };
 		C34484F11CC240D300A09AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34484F01CC240D300A09AE2 /* Images.xcassets */; };
 		C34484F41CC240D300A09AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34484F21CC240D300A09AE2 /* LaunchScreen.xib */; };
 		C34485001CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484FF1CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m */; };
 		C344850B1CC294DC00A09AE2 /* DBTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */; };
+		C344850D1CC3474A00A09AE2 /* 下.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C344850C1CC3474A00A09AE2 /* 下.jpg */; };
+		C344850F1CC36DE200A09AE2 /* imageInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C344850E1CC36DE100A09AE2 /* imageInfo.plist */; };
+		C34485151CC36FC000A09AE2 /* DBRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34485141CC36FC000A09AE2 /* DBRotateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +36,8 @@
 		C34484E51CC240D300A09AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C34484E71CC240D300A09AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C34484E81CC240D300A09AE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C34484EA1CC240D300A09AE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C34484EB1CC240D300A09AE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C34484EA1CC240D300A09AE2 /* DBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
+		C34484EB1CC240D300A09AE2 /* DBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
 		C34484EE1CC240D300A09AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C34484F01CC240D300A09AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C34484F31CC240D300A09AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +46,10 @@
 		C34484FF1CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBScrollviewdemo_01Tests.m; sourceTree = "<group>"; };
 		C34485091CC294DC00A09AE2 /* DBTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTransformViewController.h; sourceTree = "<group>"; };
 		C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTransformViewController.m; sourceTree = "<group>"; };
+		C344850C1CC3474A00A09AE2 /* 下.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "下.jpg"; sourceTree = "<group>"; };
+		C344850E1CC36DE100A09AE2 /* imageInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imageInfo.plist; sourceTree = "<group>"; };
+		C34485131CC36FC000A09AE2 /* DBRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBRotateViewController.h; sourceTree = "<group>"; };
+		C34485141CC36FC000A09AE2 /* DBRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBRotateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +93,15 @@
 			children = (
 				C34484E71CC240D300A09AE2 /* AppDelegate.h */,
 				C34484E81CC240D300A09AE2 /* AppDelegate.m */,
-				C34484EA1CC240D300A09AE2 /* ViewController.h */,
-				C34484EB1CC240D300A09AE2 /* ViewController.m */,
+				C34485121CC36F2500A09AE2 /* demo3 */,
+				C34485111CC36F0800A09AE2 /* demo2 */,
+				C34485101CC36EF100A09AE2 /* demo1 */,
+				C344850C1CC3474A00A09AE2 /* 下.jpg */,
 				C34484ED1CC240D300A09AE2 /* Main.storyboard */,
 				C34484F01CC240D300A09AE2 /* Images.xcassets */,
 				C34484F21CC240D300A09AE2 /* LaunchScreen.xib */,
 				C34484E31CC240D300A09AE2 /* Supporting Files */,
-				C34485091CC294DC00A09AE2 /* DBTransformViewController.h */,
-				C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */,
+				C344850E1CC36DE100A09AE2 /* imageInfo.plist */,
 			);
 			path = DBScrollviewdemo_01;
 			sourceTree = "<group>";
@@ -122,6 +130,33 @@
 				C34484FE1CC240D300A09AE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34485101CC36EF100A09AE2 /* demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				C34484EA1CC240D300A09AE2 /* DBViewController.h */,
+				C34484EB1CC240D300A09AE2 /* DBViewController.m */,
+			);
+			name = demo1;
+			sourceTree = "<group>";
+		};
+		C34485111CC36F0800A09AE2 /* demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				C34485091CC294DC00A09AE2 /* DBTransformViewController.h */,
+				C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */,
+			);
+			name = demo2;
+			sourceTree = "<group>";
+		};
+		C34485121CC36F2500A09AE2 /* demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				C34485131CC36FC000A09AE2 /* DBRotateViewController.h */,
+				C34485141CC36FC000A09AE2 /* DBRotateViewController.m */,
+			);
+			name = demo3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +239,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C344850F1CC36DE200A09AE2 /* imageInfo.plist in Resources */,
 				C34484EF1CC240D300A09AE2 /* Main.storyboard in Resources */,
 				C34484F41CC240D300A09AE2 /* LaunchScreen.xib in Resources */,
 				C34484F11CC240D300A09AE2 /* Images.xcassets in Resources */,
+				C344850D1CC3474A00A09AE2 /* 下.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +261,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34484EC1CC240D300A09AE2 /* ViewController.m in Sources */,
+				C34484EC1CC240D300A09AE2 /* DBViewController.m in Sources */,
 				C34484E91CC240D300A09AE2 /* AppDelegate.m in Sources */,
 				C34484E61CC240D300A09AE2 /* main.m in Sources */,
 				C344850B1CC294DC00A09AE2 /* DBTransformViewController.m in Sources */,
+				C34485151CC36FC000A09AE2 /* DBRotateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

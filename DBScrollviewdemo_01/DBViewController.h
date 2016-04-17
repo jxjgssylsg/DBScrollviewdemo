@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIScrollViewDelegate>
+@interface DBViewController : UIViewController<UIScrollViewDelegate>
 {
     UITextField *textFieldNumber;
     UIButton   *btnStart;

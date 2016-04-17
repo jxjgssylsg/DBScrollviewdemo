@@ -6,14 +6,14 @@
 //  Copyright (c) 2016年 Mr_db. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DBViewController.h"
 #import "DBTransformViewController.h"
 
-@interface ViewController ()
+@interface DBViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DBViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -39,7 +39,7 @@ typedef void(^ ButtonHandle)();
 #pragma mark 添加图片控件
 - (void)addImageView
 {
-    UIImage *image = [UIImage imageNamed:@"1.png"];
+    UIImage *image = [UIImage imageNamed:@"下.jpg"];
     _imageView = [[UIImageView alloc] initWithImage:image];
     _imageView.frame = CGRectMake(20, 20, 280, 154);
     _imageView.contentMode = UIViewContentModeScaleAspectFill;

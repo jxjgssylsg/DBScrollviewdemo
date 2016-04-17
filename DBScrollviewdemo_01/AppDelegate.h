@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class DBViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) IBOutlet UIWindow *window;
-@property (nonatomic, strong) IBOutlet ViewController *viewController;
+@property (nonatomic, strong) IBOutlet DBViewController *viewController;
 
 
 @end
