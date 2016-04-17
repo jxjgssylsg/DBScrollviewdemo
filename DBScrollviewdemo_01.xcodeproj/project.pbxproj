@@ -14,6 +14,7 @@
 		C34484F11CC240D300A09AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34484F01CC240D300A09AE2 /* Images.xcassets */; };
 		C34484F41CC240D300A09AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34484F21CC240D300A09AE2 /* LaunchScreen.xib */; };
 		C34485001CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C34484FF1CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m */; };
+		C344850B1CC294DC00A09AE2 /* DBTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C34484F91CC240D300A09AE2 /* DBScrollviewdemo_01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBScrollviewdemo_01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34484FE1CC240D300A09AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C34484FF1CC240D300A09AE2 /* DBScrollviewdemo_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBScrollviewdemo_01Tests.m; sourceTree = "<group>"; };
+		C34485091CC294DC00A09AE2 /* DBTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTransformViewController.h; sourceTree = "<group>"; };
+		C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBTransformViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C34484F01CC240D300A09AE2 /* Images.xcassets */,
 				C34484F21CC240D300A09AE2 /* LaunchScreen.xib */,
 				C34484E31CC240D300A09AE2 /* Supporting Files */,
+				C34485091CC294DC00A09AE2 /* DBTransformViewController.h */,
+				C344850A1CC294DC00A09AE2 /* DBTransformViewController.m */,
 			);
 			path = DBScrollviewdemo_01;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				C34484EC1CC240D300A09AE2 /* ViewController.m in Sources */,
 				C34484E91CC240D300A09AE2 /* AppDelegate.m in Sources */,
 				C34484E61CC240D300A09AE2 /* main.m in Sources */,
+				C344850B1CC294DC00A09AE2 /* DBTransformViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

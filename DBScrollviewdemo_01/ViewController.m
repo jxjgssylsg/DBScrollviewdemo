@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DBTransformViewController.h"
 
 @interface ViewController ()
 
@@ -44,8 +45,14 @@
     
     [self.view addSubview:scrollView];
     
+    //demo2 添加旋转控制器  - 注释下面的几句话就变成了demo1
+    DBTransformViewController *trans = [[DBTransformViewController alloc] init];
+    [self addChildViewController:trans];
+    [self.view addSubview:trans.view];
+    // ---demo2
     
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (IBAction)btnStartAction:(id)sender
