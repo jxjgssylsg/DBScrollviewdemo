@@ -8,6 +8,7 @@
 
 #import "DBViewController.h"
 #import "DBTransformViewController.h"
+#import "DBRotateViewController.h"
 
 @interface DBViewController ()
 
@@ -47,10 +48,17 @@
     
     //demo2 添加旋转控制器  - 注释下面的几句话就变成了demo1
     DBTransformViewController *trans = [[DBTransformViewController alloc] init];
+    trans.view.backgroundColor = [UIColor whiteColor];
     [self addChildViewController:trans];
     [self.view addSubview:trans.view];
     // ---demo2
     
+    //----demo3
+    DBRotateViewController *rotateScrollView = [[DBRotateViewController alloc] init];
+    rotateScrollView.view.backgroundColor = [UIColor whiteColor];
+    [self addChildViewController:rotateScrollView];
+    [self.view addSubview:rotateScrollView.view];
+    //------demo3
     
     
 }

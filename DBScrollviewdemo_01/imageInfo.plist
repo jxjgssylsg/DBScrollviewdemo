@@ -2,21 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>0.jpg - 1</key>
+	<key>0.jpg</key>
 	<string>iphone 5s</string>
-	<key>0.jpg - 2</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 3</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 4</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 5</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 6</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 7</key>
-	<string>iphone 5s</string>
-	<key>0.jpg - 8</key>
-	<string>iphone 5s</string>
+	<key>1.jpg</key>
+	<string>iphone 6s</string>
+	<key>2.jpg</key>
+	<string>iphone 7s</string>
+	<key>3.jpg</key>
+	<string>iphone 8s</string>
+	<key>4.jpg</key>
+	<string>iphone 9s</string>
+	<key>5.jpg</key>
+	<string>iphone 10s</string>
+	<key>6.jpg</key>
+	<string>iphone 11s</string>
+	<key>7.jpg</key>
+	<string>iphone 12s</string>
 </dict>
 </plist>
